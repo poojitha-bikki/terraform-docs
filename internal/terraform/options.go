@@ -50,7 +50,7 @@ func NewOptions() *Options {
 		SortBy:                     &SortBy{Name: false, Required: false, Type: false},
 		OutputValues:               false,
 		OutputValuesPath:           "",
-		VarDescriptionFromComments: false,
+		VarDescriptionFromComments: true,
 	}
 }
 
