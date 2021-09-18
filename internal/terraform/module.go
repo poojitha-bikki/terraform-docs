@@ -355,7 +355,7 @@ func loadOutputs(tfmodule *tfconfig.Module, options *Options) ([]*Output, error)
 	}
 	for _, o := range tfmodule.Outputs {
 		description := o.Description
-		if description == "" {
+		if description == "" && options.VarDescriptionFromComments {
 			description = loadComments(o.Pos.Filename, o.Pos.Line)
 		}
 		output := &Output{
