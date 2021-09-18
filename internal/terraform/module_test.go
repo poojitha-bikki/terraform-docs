@@ -498,7 +498,8 @@ func TestLoadInputs(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			assert := assert.New(t)
 			module, _ := loadModule(filepath.Join("testdata", tt.path))
-			inputs, requireds, optionals := loadInputs(module)
+			options := NewOptions()
+			inputs, requireds, optionals := loadInputs(module, options)
 
 			assert.Equal(tt.expected.inputs, len(inputs))
 			assert.Equal(tt.expected.requireds, len(requireds))
@@ -556,7 +557,8 @@ func TestLoadInputsLineEnding(t *testing.T) {
 		t.Run(tt.name, func(t *testing.T) {
 			assert := assert.New(t)
 			module, _ := loadModule(filepath.Join("testdata", tt.path))
-			inputs, _, _ := loadInputs(module)
+			options := NewOptions()
+			inputs, _, _ := loadInputs(module, options)
 
 			assert.Equal(1, len(inputs))
 			assert.Equal(tt.expected, string(inputs[0].Description))
