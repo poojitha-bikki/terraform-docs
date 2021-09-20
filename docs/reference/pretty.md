@@ -120,7 +120,7 @@ generates the following output:
 
 
     input.bool-1 (true)
-    It's bool number one.
+    n/a
 
     input.bool-2 (false)
     It's bool number two.
@@ -146,14 +146,14 @@ generates the following output:
     It includes v1 | v2 | v3
 
     input.input_with_underscores (required)
-    A variable with underscores.
+    n/a
 
     input.list-1 ([
       "a",
       "b",
       "c"
     ])
-    It's list number one.
+    n/a
 
     input.list-2 (required)
     It's list number two.
@@ -189,7 +189,7 @@ generates the following output:
       "b": 2,
       "c": 3
     })
-    It's map number one.
+    n/a
 
     input.map-2 (required)
     It's map number two.
@@ -201,7 +201,7 @@ generates the following output:
     The description contains `something_with_underscore`. Defaults to 'VALUE_WITH_UNDERSCORE'.
 
     input.number-1 (42)
-    It's number number one.
+    n/a
 
     input.number-2 (required)
     It's number number two.
@@ -219,7 +219,7 @@ generates the following output:
     n/a
 
     input.string-1 ("bar")
-    It's string number one.
+    n/a
 
     input.string-2 (required)
     It's string number two.
@@ -250,7 +250,7 @@ generates the following output:
     terraform 0.12 only
 
     output.output-1
-    It's output number one.
+    n/a
 
     output.output-2
     It's output number two.

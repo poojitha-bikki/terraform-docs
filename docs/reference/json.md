@@ -61,7 +61,7 @@ generates the following output:
         {
           "name": "bool-1",
           "type": "bool",
-          "description": "It's bool number one.",
+          "description": null,
           "default": true,
           "required": false
         },
@@ -105,14 +105,14 @@ generates the following output:
         {
           "name": "input_with_underscores",
           "type": "any",
-          "description": "A variable with underscores.",
+          "description": null,
           "default": null,
           "required": true
         },
         {
           "name": "list-1",
           "type": "list",
-          "description": "It's list number one.",
+          "description": null,
           "default": [
             "a",
             "b",
@@ -166,7 +166,7 @@ generates the following output:
         {
           "name": "map-1",
           "type": "map",
-          "description": "It's map number one.",
+          "description": null,
           "default": {
             "a": 1,
             "b": 2,
@@ -198,7 +198,7 @@ generates the following output:
         {
           "name": "number-1",
           "type": "number",
-          "description": "It's number number one.",
+          "description": null,
           "default": 42,
           "required": false
         },
@@ -240,7 +240,7 @@ generates the following output:
         {
           "name": "string-1",
           "type": "string",
-          "description": "It's string number one.",
+          "description": null,
           "default": "bar",
           "required": false
         },
@@ -330,7 +330,7 @@ generates the following output:
         },
         {
           "name": "output-1",
-          "description": "It's output number one."
+          "description": null
         },
         {
           "name": "output-2",

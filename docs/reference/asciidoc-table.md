@@ -150,7 +150,7 @@ generates the following output:
     |===
     |Name |Description |Type |Default |Required
     |[[input_bool-1]] <<input_bool-1,bool-1>>
-    |It's bool number one.
+    |n/a
     |`bool`
     |`true`
     |no
@@ -202,13 +202,13 @@ generates the following output:
     |no
 
     |[[input_input_with_underscores]] <<input_input_with_underscores,input_with_underscores>>
-    |A variable with underscores.
+    |n/a
     |`any`
     |n/a
     |yes
 
     |[[input_list-1]] <<input_list-1,list-1>>
-    |It's list number one.
+    |n/a
     |`list`
     |
 
@@ -284,7 +284,7 @@ generates the following output:
     |no
 
     |[[input_map-1]] <<input_map-1,map-1>>
-    |It's map number one.
+    |n/a
     |`map`
     |
 
@@ -318,7 +318,7 @@ generates the following output:
     |no
 
     |[[input_number-1]] <<input_number-1,number-1>>
-    |It's number number one.
+    |n/a
     |`number`
     |`42`
     |no
@@ -354,7 +354,7 @@ generates the following output:
     |no
 
     |[[input_string-1]] <<input_string-1,string-1>>
-    |It's string number one.
+    |n/a
     |`string`
     |`"bar"`
     |no
@@ -415,7 +415,7 @@ generates the following output:
     |===
     |Name |Description
     |[[output_output-0.12]] <<output_output-0.12,output-0.12>> |terraform 0.12 only
-    |[[output_output-1]] <<output_output-1,output-1>> |It's output number one.
+    |[[output_output-1]] <<output_output-1,output-1>> |n/a
     |[[output_output-2]] <<output_output-2,output-2>> |It's output number two.
     |[[output_unquoted]] <<output_unquoted,unquoted>> |It's unquoted output.
     |===
