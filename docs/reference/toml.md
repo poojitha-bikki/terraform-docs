@@ -59,7 +59,7 @@ generates the following output:
     [[inputs]]
       name = "bool-1"
       type = "bool"
-      description = ""
+      description = "It's bool number one."
       default = true
       required = false
 
@@ -101,14 +101,14 @@ generates the following output:
     [[inputs]]
       name = "input_with_underscores"
       type = "any"
-      description = ""
+      description = "A variable with underscores."
       required = true
       [inputs.default]
 
     [[inputs]]
       name = "list-1"
       type = "list"
-      description = ""
+      description = "It's list number one."
       default = ["a", "b", "c"]
       required = false
 
@@ -152,7 +152,7 @@ generates the following output:
     [[inputs]]
       name = "map-1"
       type = "map"
-      description = ""
+      description = "It's map number one."
       required = false
       [inputs.default]
         a = 1.0
@@ -183,7 +183,7 @@ generates the following output:
     [[inputs]]
       name = "number-1"
       type = "number"
-      description = ""
+      description = "It's number number one."
       default = 42.0
       required = false
 
@@ -225,7 +225,7 @@ generates the following output:
     [[inputs]]
       name = "string-1"
       type = "string"
-      description = ""
+      description = "It's string number one."
       default = "bar"
       required = false
 
@@ -311,7 +311,7 @@ generates the following output:
 
     [[outputs]]
       name = "output-1"
-      description = ""
+      description = "It's output number one."
 
     [[outputs]]
       name = "output-2"
