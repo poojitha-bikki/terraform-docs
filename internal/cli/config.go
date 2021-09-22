@@ -376,18 +376,19 @@ func (s *sort) validate() error {
 }
 
 type settings struct {
-	Anchor      bool `mapstructure:"anchor"`
-	Color       bool `mapstructure:"color"`
-	Default     bool `mapstructure:"default"`
-	Description bool `mapstructure:"description"`
-	Escape      bool `mapstructure:"escape"`
-	HideEmpty   bool `mapstructure:"hide-empty"`
-	HTML        bool `mapstructure:"html"`
-	Indent      int  `mapstructure:"indent"`
-	LockFile    bool `mapstructure:"lockfile"`
-	Required    bool `mapstructure:"required"`
-	Sensitive   bool `mapstructure:"sensitive"`
-	Type        bool `mapstructure:"type"`
+	Anchor       bool `mapstructure:"anchor"`
+	Color        bool `mapstructure:"color"`
+	Default      bool `mapstructure:"default"`
+	Description  bool `mapstructure:"description"`
+	Escape       bool `mapstructure:"escape"`
+	HideEmpty    bool `mapstructure:"hide-empty"`
+	HTML         bool `mapstructure:"html"`
+	Indent       int  `mapstructure:"indent"`
+	LockFile     bool `mapstructure:"lockfile"`
+	Required     bool `mapstructure:"required"`
+	Sensitive    bool `mapstructure:"sensitive"`
+	Type         bool `mapstructure:"type"`
+	ReadComments bool `mapstructure:"read-comments"`
 }
 
 func defaultSettings() settings {
