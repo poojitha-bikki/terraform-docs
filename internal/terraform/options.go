@@ -26,31 +26,31 @@ type SortBy struct {
 
 // Options contains required options to load a Module from path
 type Options struct {
-	Path                       string
-	ShowHeader                 bool
-	HeaderFromFile             string
-	ShowFooter                 bool
-	FooterFromFile             string
-	UseLockFile                bool
-	SortBy                     *SortBy
-	OutputValues               bool
-	OutputValuesPath           string
-	VarDescriptionFromComments bool
+	Path             string
+	ShowHeader       bool
+	HeaderFromFile   string
+	ShowFooter       bool
+	FooterFromFile   string
+	UseLockFile      bool
+	SortBy           *SortBy
+	OutputValues     bool
+	OutputValuesPath string
+	ReadComments     bool
 }
 
 // NewOptions returns new instance of Options
 func NewOptions() *Options {
 	return &Options{
-		Path:                       "",
-		ShowHeader:                 true,
-		HeaderFromFile:             "main.tf",
-		ShowFooter:                 false,
-		FooterFromFile:             "",
-		UseLockFile:                true,
-		SortBy:                     &SortBy{Name: false, Required: false, Type: false},
-		OutputValues:               false,
-		OutputValuesPath:           "",
-		VarDescriptionFromComments: true,
+		Path:             "",
+		ShowHeader:       true,
+		HeaderFromFile:   "main.tf",
+		ShowFooter:       false,
+		FooterFromFile:   "",
+		UseLockFile:      true,
+		SortBy:           &SortBy{Name: false, Required: false, Type: false},
+		OutputValues:     false,
+		OutputValuesPath: "",
+		ReadComments:     true,
 	}
 }
 
