@@ -170,7 +170,7 @@ generates the following output:
 
     ### <a name="input_input_with_underscores"></a> [input\_with\_underscores](#input\_input\_with\_underscores)
 
-    Description: n/a
+    Description: A variable with underscores.
 
     Type: `any`
 
@@ -216,7 +216,7 @@ generates the following output:
 
     ### <a name="input_bool-1"></a> [bool-1](#input\_bool-1)
 
-    Description: n/a
+    Description: It's bool number one.
 
     Type: `bool`
 
@@ -276,7 +276,7 @@ generates the following output:
 
     ### <a name="input_list-1"></a> [list-1](#input\_list-1)
 
-    Description: n/a
+    Description: It's list number one.
 
     Type: `list`
 
@@ -347,7 +347,7 @@ generates the following output:
 
     ### <a name="input_map-1"></a> [map-1](#input\_map-1)
 
-    Description: n/a
+    Description: It's map number one.
 
     Type: `map`
 
@@ -379,7 +379,7 @@ generates the following output:
 
     ### <a name="input_number-1"></a> [number-1](#input\_number-1)
 
-    Description: n/a
+    Description: It's number number one.
 
     Type: `number`
 
@@ -419,7 +419,7 @@ generates the following output:
 
     ### <a name="input_string-1"></a> [string-1](#input\_string-1)
 
-    Description: n/a
+    Description: It's string number one.
 
     Type: `string`
 
@@ -475,7 +475,7 @@ generates the following output:
 
     ### <a name="output_output-1"></a> [output-1](#output\_output-1)
 
-    Description: n/a
+    Description: It's output number one.
 
     ### <a name="output_output-2"></a> [output-2](#output\_output-2)
 

@@ -168,7 +168,7 @@ generates the following output:
 
     === [[input_input_with_underscores]] <<input_input_with_underscores,input_with_underscores>>
 
-    Description: n/a
+    Description: A variable with underscores.
 
     Type: `any`
 
@@ -214,7 +214,7 @@ generates the following output:
 
     === [[input_bool-1]] <<input_bool-1,bool-1>>
 
-    Description: n/a
+    Description: It's bool number one.
 
     Type: `bool`
 
@@ -274,7 +274,7 @@ generates the following output:
 
     === [[input_list-1]] <<input_list-1,list-1>>
 
-    Description: n/a
+    Description: It's list number one.
 
     Type: `list`
 
@@ -345,7 +345,7 @@ generates the following output:
 
     === [[input_map-1]] <<input_map-1,map-1>>
 
-    Description: n/a
+    Description: It's map number one.
 
     Type: `map`
 
@@ -377,7 +377,7 @@ generates the following output:
 
     === [[input_number-1]] <<input_number-1,number-1>>
 
-    Description: n/a
+    Description: It's number number one.
 
     Type: `number`
 
@@ -417,7 +417,7 @@ generates the following output:
 
     === [[input_string-1]] <<input_string-1,string-1>>
 
-    Description: n/a
+    Description: It's string number one.
 
     Type: `string`
 
@@ -473,7 +473,7 @@ generates the following output:
 
     === [[output_output-1]] <<output_output-1,output-1>>
 
-    Description: n/a
+    Description: It's output number one.
 
     === [[output_output-2]] <<output_output-2,output-2>>
 

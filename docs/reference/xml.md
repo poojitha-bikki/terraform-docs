@@ -60,7 +60,7 @@ generates the following output:
         <input>
           <name>bool-1</name>
           <type>bool</type>
-          <description xsi:nil="true"></description>
+          <description>It&#39;s bool number one.</description>
           <default>true</default>
           <required>false</required>
         </input>
@@ -104,14 +104,14 @@ generates the following output:
         <input>
           <name>input_with_underscores</name>
           <type>any</type>
-          <description xsi:nil="true"></description>
+          <description>A variable with underscores.</description>
           <default xsi:nil="true"></default>
           <required>true</required>
         </input>
         <input>
           <name>list-1</name>
           <type>list</type>
-          <description xsi:nil="true"></description>
+          <description>It&#39;s list number one.</description>
           <default>
             <item>a</item>
             <item>b</item>
@@ -165,7 +165,7 @@ generates the following output:
         <input>
           <name>map-1</name>
           <type>map</type>
-          <description xsi:nil="true"></description>
+          <description>It&#39;s map number one.</description>
           <default>
             <a>1</a>
             <b>2</b>
@@ -197,7 +197,7 @@ generates the following output:
         <input>
           <name>number-1</name>
           <type>number</type>
-          <description xsi:nil="true"></description>
+          <description>It&#39;s number number one.</description>
           <default>42</default>
           <required>false</required>
         </input>
@@ -239,7 +239,7 @@ generates the following output:
         <input>
           <name>string-1</name>
           <type>string</type>
-          <description xsi:nil="true"></description>
+          <description>It&#39;s string number one.</description>
           <default>bar</default>
           <required>false</required>
         </input>
@@ -329,7 +329,7 @@ generates the following output:
         </output>
         <output>
           <name>output-1</name>
-          <description xsi:nil="true"></description>
+          <description>It&#39;s output number one.</description>
         </output>
         <output>
           <name>output-2</name>

@@ -98,7 +98,7 @@ generates the following output:
     inputs:
       - name: bool-1
         type: bool
-        description: null
+        description: It's bool number one.
         default: true
         required: false
       - name: bool-2
@@ -129,12 +129,12 @@ generates the following output:
         required: false
       - name: input_with_underscores
         type: any
-        description: null
+        description: A variable with underscores.
         default: null
         required: true
       - name: list-1
         type: list
-        description: null
+        description: It's list number one.
         default:
           - a
           - b
@@ -183,7 +183,7 @@ generates the following output:
         required: false
       - name: map-1
         type: map
-        description: null
+        description: It's map number one.
         default:
           a: 1
           b: 2
@@ -206,7 +206,7 @@ generates the following output:
         required: false
       - name: number-1
         type: number
-        description: null
+        description: It's number number one.
         default: 42
         required: false
       - name: number-2
@@ -236,7 +236,7 @@ generates the following output:
         required: false
       - name: string-1
         type: string
-        description: null
+        description: It's string number one.
         default: bar
         required: false
       - name: string-2
@@ -296,7 +296,7 @@ generates the following output:
       - name: output-0.12
         description: terraform 0.12 only
       - name: output-1
-        description: null
+        description: It's output number one.
       - name: output-2
         description: It's output number two.
       - name: unquoted
