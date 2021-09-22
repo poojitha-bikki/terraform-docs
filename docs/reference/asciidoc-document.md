@@ -40,7 +40,11 @@ terraform-docs asciidoc document [PATH] [flags]
       --output-template string      output template (default "<!-- BEGIN_TF_DOCS -->\n{{ .Content }}\n<!-- END_TF_DOCS -->")
       --output-values               inject output values into outputs (default false)
       --output-values-from string   inject output values from file into outputs (default "")
+<<<<<<< HEAD
       --read-comments               use comments as description when description is empty (default true)
+=======
+      --read-comments               use comments for variable description when description is empty (default true)
+>>>>>>> 5337692... add config read-comments
       --recursive                   update submodules recursively (default false)
       --recursive-path string       submodules path to recursively update (default "modules")
       --required                    show Required column or section (default true)
