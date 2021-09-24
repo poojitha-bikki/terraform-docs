@@ -46,10 +46,10 @@ var flagMappings = map[string]string{
 	"description":   "settings.description",
 	"escape":        "settings.escape",
 	"indent":        "settings.indent",
+	"read-comments": "settings.read-comments",
 	"required":      "settings.required",
 	"sensitive":     "settings.sensitive",
 	"type":          "settings.type",
-	"read-comments": "settings.read-comments",
 }
 
 // Config represents all the available config options that can be accessed and passed through CLI
@@ -386,10 +386,10 @@ type settings struct {
 	HTML         bool `mapstructure:"html"`
 	Indent       int  `mapstructure:"indent"`
 	LockFile     bool `mapstructure:"lockfile"`
+	ReadComments bool `mapstructure:"read-comments"`
 	Required     bool `mapstructure:"required"`
 	Sensitive    bool `mapstructure:"sensitive"`
 	Type         bool `mapstructure:"type"`
-	ReadComments bool `mapstructure:"read-comments"`
 }
 
 func defaultSettings() settings {
@@ -403,10 +403,10 @@ func defaultSettings() settings {
 		HTML:         true,
 		Indent:       2,
 		LockFile:     true,
+		ReadComments: true,
 		Required:     true,
 		Sensitive:    true,
 		Type:         true,
-		ReadComments: true,
 	}
 }
 
