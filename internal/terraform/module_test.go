@@ -784,6 +784,49 @@ func TestLoadComments(t *testing.T) {
 	}
 }
 
+func TestReadComments(t *testing.T) {
+	tests := []struct {
+		name         string
+		path         string
+		fileName     string
+		readComments bool
+		expected     string
+	}{
+		{
+			name:         "Validate description when 'ReadComments' is false",
+			path:         "read-comments",
+			fileName:     "variables.tf",
+			readComments: false,
+			expected:     "",
+		},
+		{
+			name:         "Validate description when 'ReadComments' is true",
+			path:         "read-comments",
+			fileName:     "variables.tf",
+			readComments: true,
+			expected:     "B description",
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			assert := assert.New(t)
+			options := NewOptions()
+			options.ReadComments = tt.readComments
+			module, err := loadModule(filepath.Join("testdata", tt.path))
+
+			assert.Nil(err)
+
+			inputs, _, _ := loadInputs(module, options)
+			assert.Equal(1, len(inputs))
+			assert.Equal(tt.expected, string(inputs[0].Description))
+
+			outputs, _ := loadOutputs(module, options)
+			assert.Equal(1, len(outputs))
+			assert.Equal(tt.expected, string(outputs[0].Description))
+		})
+	}
+}
+
 func TestSortItems(t *testing.T) {
 	type expected struct {
 		inputs    []string
